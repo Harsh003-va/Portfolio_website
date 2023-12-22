@@ -61,9 +61,10 @@ a:hover{
     text-decoration-color:var(--main-color);
 
 }
-.logo{
-    font-size: 2rem;
-    font-display: bold; 
+.logo img{
+    width:150x;
+    height: 90px;
+    
    
 }
 .logo:hover{
