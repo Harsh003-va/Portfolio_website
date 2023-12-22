@@ -293,7 +293,7 @@ gap: 3rem;
     margin: auto 0;
 }
 .text-container{
-    color: var(--text-color);
+    color: white;
 }
 
 /* EXPERIENCE SECTION */
