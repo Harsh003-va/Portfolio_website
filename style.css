@@ -162,10 +162,46 @@ section{
     height: 80vh;
 }
 .section__pic-container{
+    
+   
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 52%;
     margin: auto 0;
+   
+   
+    
+    
+}
+.circle-spin {
+    position: absolute;
+    top: 57%;
+    left: 30%;
+    transform: translate(-50%, -50%) rotate(0);
+    width: 25%;
+    height: 52%;
+    border-radius: 50%;
+    border-top: .2rem solid var(--second-bg-color);
+    border-bottom: .2rem solid var(--second-bg-color);
+    border-left: .2rem solid var(--main-color);
+    border-right: .2rem solid var(--main-color);
+    animation: spin 8s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+@media screen and (max-width: 600px) {
+    .circle-spin {
+        width: 40vmin;
+        height: 40vmin;
+        top:30.5%;
+        left:50.5%
+    }
 }
 
 .section__text{
@@ -181,14 +217,9 @@ section{
 }
 .section__text__p1{
     text-align: center;
-    /* Set the background-clip to text */
-
-
-/* Create a linear gradient for the text color */
+  
 
 color: whitesmoke;
-
-
     
 }
 .section__text__p2{
@@ -209,8 +240,13 @@ gap: 3rem;
 
 /* ICON */
 .icon{
+    color: #081b29;
     cursor: pointer;
     height: 2rem;
+}
+.icon:hover{
+  
+    color: var(--second-bg-color);
 }
 
 
@@ -276,6 +312,7 @@ gap: 3rem;
 }
 .about-pic{
     border-radius: 2rem;
+    border: rgb(85, 85, 85) 0.3rem solid;
 }
 .arrow{
     position: absolute;
@@ -306,6 +343,11 @@ gap: 3rem;
 }
 .text-container p{
     color: white;
+    justify-content: center;
+  
+   
+    border: 2px dashed gray;
+    padding: 15px 20px;
 }
 
 /* EXPERIENCE SECTION */
