@@ -110,6 +110,10 @@ color: whitesmoke;
 text-decoration: none;
 transition:all 0.3 ease-in-out;
 }
+.menu-links a:hover{
+  text-decoration: underline;
+  color: var(--main-color);
+}
 .menu-links li{
     list-style: none;
 
