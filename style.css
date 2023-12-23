@@ -289,6 +289,7 @@ gap: 3rem;
     gap:1rem ;
  }
 
+
  /* About Section */
 
  #about{
@@ -455,6 +456,55 @@ gap: 3rem;
   .email-icon {
     height: 2.5rem;
   }
+  .get{
+    color: #081b29;
+    display: flex;
+  cursor: pointer;
+  justify-content: center;
+  font-weight: bold;
+ text-decoration-line: underline;
+ letter-spacing: 3px;
+  }
+ 
+  .footer-iconTop a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    
+    border-radius:.6rem;
+   
+    z-index: 1;
+    overflow: hidden;
+    bottom: 20%;
+}
+
+.footer-iconTop a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:0;
+    height: 100%;
+    background: var(--main-color);
+    z-index: -1;
+    transition: .5s;
+   
+}
+.footer-iconTop a:hover:before{
+    width: 100%;
+}
+
+.footer-iconTop a i{
+    font-size: 2rem;
+    color: var(--main-color);
+    transition: .5s;
+}
+
+.footer-iconTop a:hover i{
+    color: var(--second-bg-color);
+}
   
   /* FOOTER SECTION */
   
