@@ -10,6 +10,12 @@
     #projects {
       height: fit-content;
     }
+    .circle-spin{
+      width:26%;
+      height:30%;
+      top:59%;
+      left:28.5%;
+    }
   }
   
   @media screen and (max-width: 1200px) {
@@ -45,6 +51,12 @@
     .about-containers {
       margin-top: 0;
     }
+    .circle-spin{
+      width:26%;
+      height:24%;
+      top:31%;
+      left:51%;
+  }
   }
   
   @media screen and (max-width: 600px) {
@@ -100,5 +112,11 @@
     .text-container {
       text-align: justify;
     }
+    .circle-spin {
+      width: 40vmin;
+      height: 40vmin;
+      top:42%;
+      left:50.5%
+  }
   }
   

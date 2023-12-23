@@ -195,14 +195,7 @@ section{
         transform: translate(-50%, -50%) rotate(360deg);
     }
 }
-@media screen and (max-width: 600px) {
-    .circle-spin {
-        width: 40vmin;
-        height: 40vmin;
-        top:30.5%;
-        left:50.5%
-    }
-}
+
 
 .section__text{
     align-self:center ;
