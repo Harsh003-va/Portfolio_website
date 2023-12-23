@@ -543,7 +543,7 @@ gap: 3rem;
     animation: homeCursorText 6s linear infinite;
     animation-delay: 2s;
 }
- .home-img{
+  .home-img{
     min-width: 330px;
     width: 330px;
     height: 330px;

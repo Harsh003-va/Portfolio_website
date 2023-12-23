@@ -51,7 +51,7 @@
 
  
   
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 300px) {
     #contact,
     footer {
       height: 40vh;
@@ -106,4 +106,4 @@
     }
    
   }
-  
+ 
