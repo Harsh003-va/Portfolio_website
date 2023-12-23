@@ -172,7 +172,7 @@ section{
     
     
 }
-.circle-spin {
+/* .circle-spin {
     position: absolute;
     top: 57%;
     left: 30%;
@@ -202,7 +202,7 @@ section{
         top:30.5%;
         left:50.5%
     }
-}
+} */
 
 .section__text{
     align-self:center ;
